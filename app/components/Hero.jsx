@@ -20,7 +20,7 @@ export const Hero= () => {
                   
                 </div>
                 <div id="Home" className='h-[60vh] w-1/3 relative'>
-                  <Image src={"/IMG_3189.png"} fill priority={true} className="object-contain opacity-80"  />
+                  <Image src={"/IMG_3189.png"} fill priority={true} className="object-contain opacity-80" alt='img'  />
                 </div>
               </div>
             </div>
