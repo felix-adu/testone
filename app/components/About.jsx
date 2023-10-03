@@ -3,12 +3,12 @@ import React from "react";
 export const About = () => {
   return (
     <>
-      <div id="about" className="flex justify-evenly items-center">
+      <div id="about" className="flex justify-evenly items-center pl-[150px]">
           <div id="image" className="h-full">
             <img src={"/front-view.png"} alt="img"></img>
           </div>
 
-        <div className="p-[50px]">
+        <div className="pr-[150px] pl-[50px] pt-[50px]">
           <h1 className="text-6xl text-red-700">Hello World!</h1>
           <p className="text-lg text-cyan-900">
             These are some of the CSS properties you can use to style video
