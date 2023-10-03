@@ -6,7 +6,7 @@ export default function Header() {
   const [active, setActive] = useState('Home');
   return (
     <>
-      <header className="w-3/5 h-fit py-3 px-8 bg-white/70 fixed top-8 rounded-full shadow-xl">
+      <header className="w-3/5 h-fit py-3 px-8 bg-white/70 fixed top-8 rounded-full shadow-xl z-50">
     <nav>
       <ul className="flex justify-around">
         {navs.map((navItem, idx)=> (
