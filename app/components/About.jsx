@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 export const About = () => {
   return (
@@ -10,7 +11,7 @@ export const About = () => {
 
         <div className="pr-[150px] pl-[50px] pt-[50px]">
           <h1 className="text-6xl text-red-700">Hello World!</h1>
-          <p className="text-lg text-cyan-900">
+          <p className="text-lg text-cyan-900 pb-10">
             These are some of the CSS properties you can use to style video
             elements in your web pages. Keep in mind that video elements also
             have their own set of attributes and JavaScript methods that can be
@@ -24,7 +25,8 @@ export const About = () => {
             with the release of Letraset sheets containing Lorem Ipsum passages,
             and more recently with desktop publishing software like Aldus
             PageMaker including versions of Lorem Ipsum.
-          </p>
+             </p>
+             <Button/>
         </div>
       </div>
     </>

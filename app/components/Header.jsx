@@ -13,7 +13,7 @@ export default function Header() {
           <Link href={`${navItem.url}`} key={idx}>
              <li  
          onClick={()=>setActive(navItem.title)} 
-          className={`${active=== navItem.title ? 'bg-white text-black' : ''} py-2 px-6 rounded-full hover:bg-white hover:shadow-xl hover:duration-300 cursor-pointer`}> {navItem.title} </li> 
+          className={`${active=== navItem.title ? 'bg-yellow-400 text-black' : ''} py-2 px-6 rounded-full hover:bg-white hover:shadow-xl hover:duration-300 cursor-pointer`}> {navItem.title} </li> 
           </Link>
         
         ))}

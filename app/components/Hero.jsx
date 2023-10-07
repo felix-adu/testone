@@ -6,7 +6,7 @@ export const Hero= () => {
   return (<>
     <div className='h-[80vh] w-full bg-cover bg-no-repeat'
     style={{
-      backgroundImage: `url(https://img.freepik.com/free-vector/3d-earth-graphic-symbolizing-global-trade-illustration_456031-125.jpg?w=900&t=st=1695828253~exp=1695828853~hmac=0dccc9399d52b6e81d2c5b4fb386a04f0da2b14c67b97f8953f37f8d95daccb4)`,backgroundRepeat:`no-repeat`, backgroundSize:`cover`}}>
+      backgroundImage: `urlhttps://youtu.be/gdzU1W_q_a4)`,backgroundRepeat:`repeat`, backgroundSize:`cover`}}>
             <div className='h-[80vh] w-full flex justify-center items-end bg-gradient-to-tr from-[#002B6B]/60 via-[#100110A]/90 to-[#070643]/90 bg-blend-multiply'>
               <div className="h-f[66vh]">
               
